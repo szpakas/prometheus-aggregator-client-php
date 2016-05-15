@@ -1,0 +1,29 @@
+{
+  "name": "szpakas/prometheus-aggregator-client",
+  "type": "library",
+  "description": "Client library for sending data to Prometheus Aggregator via UDP.",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Adam Szpakowski",
+      "email": "adam@szpakowski.info"
+    }
+  ],
+  "require": {
+    "php": "^5.4|^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : ">=4 <5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Szpakas\\PrometheusAggregator\\Client\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Szpakas\\PrometheusAggregator\\Client\\Test\\": "tests"
+    }
+  }
+}
